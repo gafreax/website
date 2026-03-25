@@ -1,20 +1,23 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# gafreax-website
 
-This contains everything you need to run your app locally.
+This repository contains the source code for my personal website.
 
-View your app in AI Studio: https://ai.studio/apps/5fc9f8d8-14e5-4d29-a74c-3f765824475c
+## Running Locally
 
-## Run Locally
+**Prerequisites:** [Node.js](https://nodejs.org/)
 
-**Prerequisites:**  Node.js
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
+2.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Once the server is running, you can view the website in your browser at `http://localhost:3000` (or another port if specified in the output).
